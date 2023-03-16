@@ -1,19 +1,20 @@
 2*(3+5/2)
 
 2*((3+5)/2)
-
+#si no pongo parentesis primero va hacer la división de 2/3 y después la suma
 2/3+5
-
+#cociente de la división
 2%/%3+5
 
 2%%3
+2/3
 
 2^3*5
 
 2^-4
 
 2^(-4)
-
+#da el resultado de la división sin decimales
 725%/%7
 
 725%%7
@@ -31,12 +32,13 @@ pi
 
 pi^2
 
+#infinito
 Inf
-
+#menos infinito
 -Inf
-
+#valor desconocido (not aviable)
 NA
-
+#not a number (indeterminado)
 NaN
 
 5/0
@@ -49,26 +51,27 @@ NaN
 
 c(2^30, 2^(-15), 1, 2, 3/2)
 
-
+#raiz cuadrada
 sqrt(25)
-
+#exponencial
 exp(1)
-
+#logaritmo
 log(pi)
 
 log(32, 2)
 
 log(32, base = 2)
 log(base=2, 32)
-
+#valor absoluto
 abs(-pi)
-
+#numero factorial n! = (n-1)xn
 factorial(7)
-
+# 4! = 4 x 3 x 2 x 1
 factorial(4)
 
 factorial(0)
 
+#coeficiente binomial nCk
 choose(5, 3)
 
 choose(3,5)
@@ -96,10 +99,13 @@ asin(0.8660254) * 180 /pi #arc sin en grados
 asin(5) #arc sin x in [-1,1]
 
 acos(-8)
-
+#muestra las n cifras significativas de x
 print(sqrt(2),10)
+#redondea un numero a x cifras
 round(sqrt(2), 3)
+#parte entera por defecto de x
 floor(sqrt(2))
+#
 ceiling(sqrt(2))
 trunc(sqrt(2))
 
@@ -111,6 +117,8 @@ round(sqrt(2), 4)^2
 print(2^50, 15)
 print(2^50, 2)
 print(pi, 22)
+#R solo puede presentar hasta 16 decimales, R se puede equivocar
+#si se piden más decimales
 #3.141592653589793115998
 #3.141592653589793238462
 
@@ -125,6 +133,7 @@ round(5, sqrt(2))
 
 floor(-3.45)
 ceiling(-3.45)
+#quita los decimales
 trunc(-3.45)
 
 
